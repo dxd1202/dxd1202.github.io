@@ -1,3 +1,37 @@
+@font-face {
+  font-family: 'FZBYS';
+  src: url("/fonts/FZBIAOYSK_0.TTF");
+  font-weight: regular;
+}
+@font-face {
+  font-family: 'FZXBS';
+  src: url("/fonts/FZXBSJW.TTF");
+}
+@font-face {
+  font-family: 'MLT';
+  src: url("/fonts/Miller Text Regular.otf");
+  font-weight: regular;
+}
+@font-face {
+  font-family: 'MLTB';
+  src: url("/fonts/Miller Text Bold.otf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'NotoSerif';
+  src: url("/fonts/NotoSerifSC-VF.ttf");
+  font-weight: regular;
+}
+@font-face {
+  font-family: 'NotoSerif';
+  src: url("/fonts/NotoSerifSC-VF.ttf");
+  font-weight: SemiBold;
+}
+@font-face {
+  font-family: 'NotoSerif';
+  src: url("/fonts/NotoSerifSC-VF.ttf");
+  font-weight: bold;
+}
 :root {
   --body-bg-color: #f5f7f9;
   --content-bg-color: #fff;
@@ -177,7 +211,7 @@ body {
 body {
   background: var(--body-bg-color);
   color: var(--text-color);
-  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'NotoSerif', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 1em;
   line-height: 2;
 }
@@ -193,7 +227,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'NotoSerif', 'NotoSerif', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-weight: bold;
   line-height: 1.5;
   margin: 20px 0 15px;
@@ -1010,7 +1044,7 @@ pre .javascript .function {
   color: var(--brand-hover-color);
 }
 .site-title {
-  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'MLTB, FZXBS', 'NotoSerif', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 1.375em;
   font-weight: normal;
   margin: 0;
@@ -1193,7 +1227,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #266b20;
+  background: #dbffeb;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1544,7 +1578,7 @@ pre .javascript .function {
   top: 0;
 }
 .post-body {
-  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'NotoSerif', 'NotoSerif', "PingFang SC", "Microsoft YaHei", sans-serif;
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
@@ -1842,7 +1876,7 @@ pre .javascript .function {
 }
 .posts-expand .post-meta {
   color: #999;
-  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'NotoSerif', 'NotoSerif', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 0.75em;
   margin: 3px 0 60px 0;
   text-align: center;
